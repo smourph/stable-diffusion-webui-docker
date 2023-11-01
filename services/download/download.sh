@@ -20,7 +20,7 @@ echo -e "\n------------------------------\n"
 
 echo "Checking SHAs..."
 
-parallel --will-cite -a /docker/checksums.sha256 "echo -e -n {} | sha256sum -c"
+parallel --will-cite -a /docker/checksums.sha256 "echo -e -n {} | grep -v '^#' | sha256sum -c";
 echo -e "\n------------------------------\n"
 
 cat <<EOF
