@@ -16,10 +16,12 @@ mkdir -vp /data/.cache \
 echo "Downloading, this might take a while..."
 
 aria2c -x 10 --disable-ipv6 --input-file /docker/links.txt --dir /data/models --continue
+echo -e "\n------------------------------\n"
 
-# echo "Checking SHAs..."
+echo "Checking SHAs..."
 
-# parallel --will-cite -a /docker/checksums.sha256 "echo -n {} | sha256sum -c"
+parallel --will-cite -a /docker/checksums.sha256 "echo -e -n {} | sha256sum -c"
+echo -e "\n------------------------------\n"
 
 cat <<EOF
 By using this software, you agree to the following licenses:
@@ -29,3 +31,5 @@ https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/master/LICENSE.txt
 https://github.com/invoke-ai/InvokeAI/blob/main/LICENSE
 And licenses of all UIs, third party libraries, and extensions.
 EOF
+
+echo -e "\n------------------------------\n"

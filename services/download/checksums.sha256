@@ -1,5 +1,15 @@
-cc6cb27103417325ff94f52b7a5d2dde45a7515b25c255d8e396c90014281516  /data/models/Stable-diffusion/v1-5-pruned-emaonly.ckpt
-c6bbc15e3224e6973459ba78de4998b80b50112b0ae5b5c67113d56b4e366b19  /data/models/Stable-diffusion/sd-v1-5-inpainting.ckpt
+c6bbc15e3224e6973459ba78de4998b80b50112b0ae5b5c67113d56b4e366b19  /data/models/Stable-diffusion/sd-v1-5_inpainting.ckpt
+baf37f7d667df422eb370712ed98eb2c590499752ae454568d72b293549253d7  /data/models/Stable-diffusion/sd-v1-5_inpainting.yaml
+e6bb9ea85bbf7bf6478a7c6d18b71246f22e95d41bcdd80ed40aa212c33cfeff  /data/models/Stable-diffusion/sd_xl_base_1.0_0.9vae.safetensors
+4bd61f9d429423a80690137a93cc01f39a039ae4b5115b322c3b524b86763d7d  /data/models/Stable-diffusion/sd_xl_base_1.0_0.9vae.yaml
+8d0ce6c016004cbdacd50f937dad381d8c396628d621a7f97191470532780164  /data/models/Stable-diffusion/sd_xl_refiner_1.0_0.9vae.safetensors
+5002986d2b9507bc3e15e5d6dbf0746324e27d60bcf4e89d139b431667b23448  /data/models/Stable-diffusion/sd_xl_refiner_1.0_0.9vae.yaml
+d2f2bad520793056d824a168f10b8dcc16e48193dec787f6f523b3be570a160f  /data/models/Stable-diffusion/v1-5-pruned-emaonly.safetensors
+20b7f0acae54d1f88384a6ca15b5d62c0ee4fbbca07ff72f3761fe936083210d  /data/models/Stable-diffusion/v1-5-pruned-emaonly.yaml
+df955bdf6b682338ea9b55dfc0d8f3475aadf4836e204893d28b82355e0956d2  /data/models/Stable-diffusion/v2-1_512-ema-pruned.safetensors
+ec4094bd36ef558cd9d52c9985471ac91d2c0c5bd071717411a4ccd5adf4f311  /data/models/Stable-diffusion/v2-1_512-ema-pruned.yaml
+dcd690123cfc64383981a31d955694f6acf2072a80537fdb612c8e58ec87a8ac  /data/models/Stable-diff²usion/v2-1_768-ema-pruned.safetensors
+72b092aadfe146f5d3f395a720c0aa3b2354b2095e3f10dc18f0e9716d286dcb  /data/models/Stable-diffusion/v2-1_768-ema-pruned.yaml
 c6a580b13a5bc05a5e16e4dbb80608ff2ec251a162311590c1f34c013d7f3dab  /data/models/VAE/vae-ft-mse-840000-ema-pruned.ckpt
 e2cd4703ab14f4d01fd1383a8a8b266f9a5833dacee8e6a79d3bf21a1b6be5ad  /data/models/GFPGAN/GFPGANv1.4.pth
 4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1  /data/models/RealESRGAN/RealESRGAN_x4plus.pth
