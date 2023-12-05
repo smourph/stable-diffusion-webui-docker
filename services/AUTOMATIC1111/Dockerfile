@@ -28,10 +28,13 @@ RUN --mount=type=cache,target=/var/cache/apt \
 
 
 WORKDIR /
+
+ARG TAG_OR_SHA=v1.6.1
 RUN --mount=type=cache,target=/root/.cache/pip \
   git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git && \
   cd stable-diffusion-webui && \
-  git reset --hard 4afaaf8a020c1df457bcf7250cb1c7f609699fa7 && \
+  git fetch --all --tags && \
+  git reset --hard ${TAG_OR_SHA} && \
   pip install --upgrade pip && \
   pip install -r requirements_versions.txt
 
